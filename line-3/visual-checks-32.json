@@ -1,0 +1,46 @@
+{
+  "ancestor_sha256": "fb03d5101c2d4a196268a027421a3982381f95fdc6545f7f83f0638b8a0590b6",
+  "generated_before_assembly_sha256": "17ef15faebad04b338c7dfcf7a5b3e72ff0e0523918f40caacf375e5eb08613b",
+  "wall_sha256": "f4408d3615fca1b0eb14e46880c4687905e38533b133e5c150ef8a229f2d82c4",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "wall_bytes": 4016718,
+  "addition_boxes_xyxy": [
+    [
+      580,
+      35,
+      835,
+      170
+    ]
+  ],
+  "changed_pixels_inside_boxes": 33565,
+  "changed_pixels_outside_boxes": 0,
+  "thumbnail": {
+    "path": "dist/line-3/32.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 60332,
+    "sha256": "df476e37aa84bde26159320be38ba136006487f0a0748045594ab8dd61135c6a"
+  },
+  "manual_review_pending": false,
+  "manual_review": {
+    "final_png_and_jpeg_inspected": true,
+    "new_hands": 0,
+    "inherited_digit_count_per_hand": [
+      5,
+      5
+    ],
+    "unmet_visual_requirements": [],
+    "limitations": [
+      "Generated rock microtexture and a local tonal difference remain inside the new paint footprint."
+    ],
+    "review_authority": "contributor-only"
+  }
+}

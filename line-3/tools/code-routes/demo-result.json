@@ -1,0 +1,102 @@
+{
+  "demonstration_passed": true,
+  "results": [
+    {
+      "token": "ZTO",
+      "target": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+      "code_block": {
+        "number": "0x18f99b1",
+        "hash": "0x1dfd9e5522e0883294299de66aafcf57f28fa4f9a431b1858a728cae919e5b6e"
+      },
+      "code_hash": "0x24e03ed7d7d3d6dc010b9a9836e419a3eb4215383b463f4e6685b4816435f16d",
+      "state_inclusion_verified": true,
+      "anchor": "unanchored-rpc-header",
+      "runtime_bytes": 1287,
+      "instruction_route_counts": {
+        "direct-model-path": 269,
+        "dynamic-target-candidate": 599,
+        "excluded-by-model": 8
+      },
+      "jump_count": 61,
+      "dynamic_jump_count": 16,
+      "dynamic_jump_expansion_used": true,
+      "operation_counts": {
+        "SLOAD": {
+          "direct-model-path": 0,
+          "dynamic-target-candidate": 5,
+          "excluded-by-model": 0
+        },
+        "SSTORE": {
+          "direct-model-path": 0,
+          "dynamic-target-candidate": 4,
+          "excluded-by-model": 0
+        }
+      },
+      "execution_reachability_verified": false
+    },
+    {
+      "token": "IMD",
+      "target": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+      "code_block": {
+        "number": "0x18f99b1",
+        "hash": "0x1dfd9e5522e0883294299de66aafcf57f28fa4f9a431b1858a728cae919e5b6e"
+      },
+      "code_hash": "0x79a1ae149d27d4aae006d4dd75cb834222c9623799bbf34359428aaf66fec3bf",
+      "state_inclusion_verified": true,
+      "anchor": "unanchored-rpc-header",
+      "runtime_bytes": 22990,
+      "instruction_route_counts": {
+        "direct-model-path": 2173,
+        "dynamic-target-candidate": 11959,
+        "excluded-by-model": 30
+      },
+      "jump_count": 1324,
+      "dynamic_jump_count": 311,
+      "dynamic_jump_expansion_used": true,
+      "operation_counts": {
+        "SLOAD": {
+          "direct-model-path": 6,
+          "dynamic-target-candidate": 48,
+          "excluded-by-model": 0
+        },
+        "STATICCALL": {
+          "direct-model-path": 0,
+          "dynamic-target-candidate": 6,
+          "excluded-by-model": 0
+        },
+        "SSTORE": {
+          "direct-model-path": 0,
+          "dynamic-target-candidate": 18,
+          "excluded-by-model": 0
+        },
+        "EXTCODESIZE": {
+          "direct-model-path": 0,
+          "dynamic-target-candidate": 4,
+          "excluded-by-model": 0
+        },
+        "CALL": {
+          "direct-model-path": 0,
+          "dynamic-target-candidate": 5,
+          "excluded-by-model": 0
+        },
+        "TLOAD": {
+          "direct-model-path": 0,
+          "dynamic-target-candidate": 0,
+          "excluded-by-model": 1
+        },
+        "CREATE": {
+          "direct-model-path": 0,
+          "dynamic-target-candidate": 0,
+          "excluded-by-model": 1
+        },
+        "CALLCODE": {
+          "direct-model-path": 0,
+          "dynamic-target-candidate": 0,
+          "excluded-by-model": 1
+        }
+      },
+      "execution_reachability_verified": false
+    }
+  ],
+  "scope": "Historical proof replay and conservative structural route analysis, not execution."
+}

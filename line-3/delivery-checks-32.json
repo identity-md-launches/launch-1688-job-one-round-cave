@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "numbered_record": 32,
+  "record_count": 32,
+  "changed_paths_in_scope": true,
+  "new_and_modified_non_artifact_files_under_100000_bytes": true,
+  "named_outputs_untracked": true,
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG",
+  "thumbnail_dimensions": [
+    512,
+    512
+  ],
+  "thumbnail_format": "JPEG",
+  "wall_sha256": "f4408d3615fca1b0eb14e46880c4687905e38533b133e5c150ef8a229f2d82c4",
+  "new_file_count_before_this_report": 13,
+  "proof_checks": [
+    {
+      "token": "ZTO",
+      "state_inclusion_verified": true,
+      "anchor": "unanchored-rpc-header",
+      "block": {
+        "number": "0x18f99b1",
+        "hash": "0x1dfd9e5522e0883294299de66aafcf57f28fa4f9a431b1858a728cae919e5b6e"
+      }
+    },
+    {
+      "token": "IMD",
+      "state_inclusion_verified": true,
+      "anchor": "unanchored-rpc-header",
+      "block": {
+        "number": "0x18f99b1",
+        "hash": "0x1dfd9e5522e0883294299de66aafcf57f28fa4f9a431b1858a728cae919e5b6e"
+      }
+    }
+  ],
+  "unmet_visual_requirements": [],
+  "authority": "Local contributor checks only; not independent certification."
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "Code Routes",
+  "command": "python3 -B -m unittest discover -s line-3/tools/code-routes -p 'test_*.py' -v",
+  "tests_run": 25,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "independent_graph_oracle_cases": 250,
+  "maximum_runtime_test_bytes": 24576,
+  "demo_command": "python3 -B line-3/tools/code-routes/demo.py",
+  "demo_passed": true,
+  "real_proofs_collected": true,
+  "block_number": 26188209,
+  "anchor_authenticity_verified": false,
+  "execution_reachability_verified": false,
+  "scope": "Local contributor tests and evidence replay; no independent certification."
+}
