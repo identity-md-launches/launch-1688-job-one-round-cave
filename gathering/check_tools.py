@@ -15,6 +15,15 @@ def checks():
                 commands.append((f'line-{number}-{folder.name}-suite',
                     ['-m', 'unittest', 'discover', '-s', str(folder), '-p', 'test_*.py', '-v'], 0))
     commands.extend([
+        ('shared-rehearsal-set-demo', ['shared/rehearsal-set/rehearsal_set.py', 'demo'], 0),
+        ('set-surface-demo', ['shared/rehearsal-set/set_surface.py', '--demo'], 0),
+        ('zto-bundle-demo', ['line-1/tools/zto-bundle/zto_bundle.py', '--demo'], 0),
+        ('receipt-exposure-demo', ['line-2/tools/receipt-exposure/receipt_exposure.py'], 0),
+        ('allowance-caps-demo', ['line-2/tools/allowance-caps/allowance_caps.py'], 0),
+        ('code-metadata-demo', ['line-3/tools/code-metadata/demo.py'], 0),
+        ('code-routes-demo', ['line-3/tools/code-routes/demo.py'], 0),
+        ('rehearsal-binding-demo', ['line-4/tools/rehearsal-binding/rehearsal_binding.py', 'demo'], 0),
+        ('rehearsal-set-demo', ['line-4/tools/rehearsal-set/rehearsal_set.py', 'demo'], 0),
         ('surface-call-demo', ['shared/surface-return/surface_call.py', '--demo'], 0),
         ('bundle-refresh-demo', ['line-2/tools/bundle-refresh/bundle_refresh.py'], 0),
         ('code-constants-demo', ['line-3/tools/code-constants/demo.py'], 0),
@@ -97,14 +106,14 @@ def main():
                       'expected_exit': expected, 'exit': done.returncode,
                       'passed': done.returncode == expected, 'stderr': done.stderr}
             if args[0] == '-m' and done.returncode == 0:
-                match = __import__('re').search(r'Ran ([0-9]+) tests[^\n]*', done.stderr)
+                match = __import__('re').search(r'Ran ([0-9]+) tests?[^\n]*', done.stderr)
                 result['stderr'] = (match.group(0) + '\nOK\n') if match else done.stderr
                 result['test_count'] = int(match.group(1)) if match else 0
             if args[0] != '-m':
                 output = json.loads(done.stdout) if done.stdout else {}
                 result['stdout_sha256'] = hashlib.sha256(done.stdout.encode()).hexdigest()
                 result['summary'] = {k: output[k] for k in (
-                    'schema', 'status', 'decision', 'verdict', 'candidate_count',
+                    'schema', 'status', 'decision', 'verdict', 'candidate_count', 'demonstration_passed',
                     'largest_candidate_input_raw', 'verified', 'coherent',
                     'measured_pair_count', 'violating_pair_count', 'missing_pair_count',
                     'block', 'block_number', 'estimate', 'counts', 'summary', 'limits') if k in output}

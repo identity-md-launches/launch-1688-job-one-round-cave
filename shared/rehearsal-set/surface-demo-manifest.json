@@ -1,0 +1,13 @@
+{
+  "schema": "set-surface-manifest-v1",
+  "members": [
+    {
+      "id": "zto-manager-balance",
+      "proof": "shared/surface-return/zto-proof.json",
+      "signature": "balanceOf(address)",
+      "return_types": [
+        "uint256"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "gathering-delivery-checks-v12",
+  "authority": "Local contributor checks; not independent certification.",
+  "wall": {
+    "path": "artifacts/gathering/wall-v12.png",
+    "format": "PNG RGB 8-bit",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6c457536bdc32d741c733729c3e52565d46f414edba84c44573918efd8172317",
+    "bytes": 3922561,
+    "chunk_crcs_and_raster_valid": true,
+    "required_png_untracked": true
+  },
+  "thumbnail": {
+    "path": "dist/gathering/12.jpg",
+    "format": "baseline JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 54478
+  },
+  "visual_review": {
+    "left_hand_digits": 5,
+    "right_hand_digits": 5,
+    "new_hands": 0,
+    "unmet_requirements_observed": [],
+    "limits": "Subjective review; exact preservation is measured outside the addition rectangle."
+  },
+  "records": 149,
+  "painted": 60,
+  "placeholders": 89,
+  "gallery_articles": 149,
+  "goals": 4,
+  "line_sources_and_records_unchanged": true,
+  "changed_source_paths_within_scope": true,
+  "oversized_output_source_files": [],
+  "offline_tests": 792,
+  "offline_commands": 117,
+  "offline_expected_exits_matched": true
+}

@@ -20,7 +20,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 6 tests in 0.011s\nOK\n",
+      "stderr": "Ran 6 tests in 0.008s\nOK\n",
       "test_count": 6
     },
     {
@@ -40,8 +40,28 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 16 tests in 0.113s\nOK\n",
+      "stderr": "Ran 16 tests in 0.073s\nOK\n",
       "test_count": 16
+    },
+    {
+      "name": "line-1-zto-bundle-suite",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-1/tools/zto-bundle",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "Ran 9 tests in 0.226s\nOK\n",
+      "test_count": 9
     },
     {
       "name": "line-1-zto-capacity-suite",
@@ -60,7 +80,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 5 tests in 0.391s\nOK\n",
+      "stderr": "Ran 5 tests in 0.263s\nOK\n",
       "test_count": 5
     },
     {
@@ -80,8 +100,8 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 8 tests in 0.204s\nOK\n",
-      "test_count": 8
+      "stderr": "Ran 10 tests in 0.158s\nOK\n",
+      "test_count": 10
     },
     {
       "name": "line-1-zto-path-suite",
@@ -100,7 +120,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 17 tests in 0.329s\nOK\n",
+      "stderr": "Ran 17 tests in 0.174s\nOK\n",
       "test_count": 17
     },
     {
@@ -120,7 +140,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 10 tests in 3.350s\nOK\n",
+      "stderr": "Ran 10 tests in 2.771s\nOK\n",
       "test_count": 10
     },
     {
@@ -140,7 +160,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 15 tests in 0.185s\nOK\n",
+      "stderr": "Ran 15 tests in 0.117s\nOK\n",
       "test_count": 15
     },
     {
@@ -160,7 +180,27 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 12 tests in 0.189s\nOK\n",
+      "stderr": "Ran 12 tests in 0.109s\nOK\n",
+      "test_count": 12
+    },
+    {
+      "name": "line-2-allowance-caps-suite",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/allowance-caps",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "Ran 12 tests in 0.471s\nOK\n",
       "test_count": 12
     },
     {
@@ -180,7 +220,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 29 tests in 1.379s\nOK\n",
+      "stderr": "Ran 29 tests in 0.765s\nOK\n",
       "test_count": 29
     },
     {
@@ -200,7 +240,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 22 tests in 0.130s\nOK\n",
+      "stderr": "Ran 22 tests in 0.069s\nOK\n",
       "test_count": 22
     },
     {
@@ -220,7 +260,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 24 tests in 0.182s\nOK\n",
+      "stderr": "Ran 24 tests in 0.086s\nOK\n",
       "test_count": 24
     },
     {
@@ -240,7 +280,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 3 tests in 0.014s\nOK\n",
+      "stderr": "Ran 3 tests in 0.006s\nOK\n",
       "test_count": 3
     },
     {
@@ -260,7 +300,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 15 tests in 0.341s\nOK\n",
+      "stderr": "Ran 15 tests in 0.347s\nOK\n",
       "test_count": 15
     },
     {
@@ -280,7 +320,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 7 tests in 0.083s\nOK\n",
+      "stderr": "Ran 7 tests in 0.073s\nOK\n",
       "test_count": 7
     },
     {
@@ -300,7 +340,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 11 tests in 0.111s\nOK\n",
+      "stderr": "Ran 11 tests in 0.083s\nOK\n",
       "test_count": 11
     },
     {
@@ -320,7 +360,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 4 tests in 0.020s\nOK\n",
+      "stderr": "Ran 4 tests in 0.015s\nOK\n",
       "test_count": 4
     },
     {
@@ -340,7 +380,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 4 tests in 0.009s\nOK\n",
+      "stderr": "Ran 4 tests in 0.012s\nOK\n",
       "test_count": 4
     },
     {
@@ -360,8 +400,28 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 20 tests in 0.084s\nOK\n",
+      "stderr": "Ran 20 tests in 0.055s\nOK\n",
       "test_count": 20
+    },
+    {
+      "name": "line-2-receipt-exposure-suite",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-2/tools/receipt-exposure",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "Ran 13 tests in 0.282s\nOK\n",
+      "test_count": 13
     },
     {
       "name": "line-3-code-ancestry-suite",
@@ -380,7 +440,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 23 tests in 4.420s\nOK\n",
+      "stderr": "Ran 23 tests in 4.615s\nOK\n",
       "test_count": 23
     },
     {
@@ -400,7 +460,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 10 tests in 0.119s\nOK\n",
+      "stderr": "Ran 10 tests in 0.061s\nOK\n",
       "test_count": 10
     },
     {
@@ -420,7 +480,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 16 tests in 1.373s\nOK\n",
+      "stderr": "Ran 16 tests in 1.094s\nOK\n",
       "test_count": 16
     },
     {
@@ -440,7 +500,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 21 tests in 3.486s\nOK\n",
+      "stderr": "Ran 21 tests in 3.246s\nOK\n",
       "test_count": 21
     },
     {
@@ -460,8 +520,28 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 16 tests in 0.293s\nOK\n",
+      "stderr": "Ran 16 tests in 0.185s\nOK\n",
       "test_count": 16
+    },
+    {
+      "name": "line-3-code-metadata-suite",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-3/tools/code-metadata",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "Ran 23 tests in 2.429s\nOK\n",
+      "test_count": 23
     },
     {
       "name": "line-3-code-opcodes-suite",
@@ -480,7 +560,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 6 tests in 0.195s\nOK\n",
+      "stderr": "Ran 6 tests in 0.123s\nOK\n",
       "test_count": 6
     },
     {
@@ -500,7 +580,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 30 tests in 1.848s\nOK\n",
+      "stderr": "Ran 30 tests in 1.142s\nOK\n",
       "test_count": 30
     },
     {
@@ -520,8 +600,28 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 19 tests in 2.406s\nOK\n",
+      "stderr": "Ran 19 tests in 1.547s\nOK\n",
       "test_count": 19
+    },
+    {
+      "name": "line-3-code-routes-suite",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-3/tools/code-routes",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "Ran 25 tests in 1.202s\nOK\n",
+      "test_count": 25
     },
     {
       "name": "line-3-code-set-suite",
@@ -540,7 +640,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 17 tests in 5.106s\nOK\n",
+      "stderr": "Ran 17 tests in 4.461s\nOK\n",
       "test_count": 17
     },
     {
@@ -560,7 +660,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 25 tests in 2.151s\nOK\n",
+      "stderr": "Ran 25 tests in 1.841s\nOK\n",
       "test_count": 25
     },
     {
@@ -580,7 +680,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 36 tests in 0.117s\nOK\n",
+      "stderr": "Ran 36 tests in 0.055s\nOK\n",
       "test_count": 36
     },
     {
@@ -600,7 +700,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 23 tests in 0.071s\nOK\n",
+      "stderr": "Ran 23 tests in 0.029s\nOK\n",
       "test_count": 23
     },
     {
@@ -620,7 +720,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 20 tests in 0.268s\nOK\n",
+      "stderr": "Ran 20 tests in 0.164s\nOK\n",
       "test_count": 20
     },
     {
@@ -640,7 +740,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 8 tests in 0.005s\nOK\n",
+      "stderr": "Ran 8 tests in 0.002s\nOK\n",
       "test_count": 8
     },
     {
@@ -660,8 +760,28 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 7 tests in 0.151s\nOK\n",
+      "stderr": "Ran 7 tests in 0.099s\nOK\n",
       "test_count": 7
+    },
+    {
+      "name": "line-4-rehearsal-binding-suite",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/rehearsal-binding",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "Ran 20 tests in 0.019s\nOK\n",
+      "test_count": 20
     },
     {
       "name": "line-4-rehearsal-expiry-suite",
@@ -680,8 +800,28 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 6 tests in 0.015s\nOK\n",
+      "stderr": "Ran 6 tests in 0.009s\nOK\n",
       "test_count": 6
+    },
+    {
+      "name": "line-4-rehearsal-set-suite",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/rehearsal-set",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "Ran 27 tests in 0.039s\nOK\n",
+      "test_count": 27
     },
     {
       "name": "line-4-relay-rehearsal-suite",
@@ -700,7 +840,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 10 tests in 0.383s\nOK\n",
+      "stderr": "Ran 10 tests in 0.149s\nOK\n",
       "test_count": 10
     },
     {
@@ -720,7 +860,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 12 tests in 0.013s\nOK\n",
+      "stderr": "Ran 12 tests in 0.008s\nOK\n",
       "test_count": 12
     },
     {
@@ -740,8 +880,152 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 19 tests in 0.044s\nOK\n",
+      "stderr": "Ran 19 tests in 0.021s\nOK\n",
       "test_count": 19
+    },
+    {
+      "name": "zto-bundle-demo",
+      "command": [
+        "python3",
+        "-B",
+        "line-1/tools/zto-bundle/zto_bundle.py",
+        "--demo"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "",
+      "stdout_sha256": "14f524a5b7b1b5e650b6f7b992257620a742eab30cd2af547b9561524c19500f",
+      "summary": {
+        "schema": "zto-evidence-bundle-verification-v1",
+        "status": "accepted",
+        "block": {
+          "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+          "number": "0x18f8a44",
+          "timestamp": "0x6ace4457"
+        }
+      }
+    },
+    {
+      "name": "receipt-exposure-demo",
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/receipt-exposure/receipt_exposure.py"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "",
+      "stdout_sha256": "3950fb45029d833c5826871feb5379371ce6ca743ec26bf3c5484de96ece34ac",
+      "summary": {
+        "schema": "permission-receipt-exposure-v1",
+        "measured_pair_count": 19,
+        "block": {
+          "block_number": 26187572,
+          "block_hash": "0xfbdf6fb511bd7ee2e74dd1b2bd8982e05e2d4cf8d10e495e6b9789bc50e7997f",
+          "block_time_utc": "2026-10-14T01:52:23+00:00",
+          "sources": [
+            "https://ethereum-rpc.publicnode.com"
+          ]
+        }
+      }
+    },
+    {
+      "name": "allowance-caps-demo",
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/allowance-caps/allowance_caps.py"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "",
+      "stdout_sha256": "b4f18a97f9fa677d588b6b7eb1cef5b3cd37d93f1f77be4887aa642135abd333",
+      "summary": {
+        "schema": "permission-cap-comparison-v1",
+        "measured_pair_count": 19,
+        "block": {
+          "block_number": 26187572,
+          "block_hash": "0xfbdf6fb511bd7ee2e74dd1b2bd8982e05e2d4cf8d10e495e6b9789bc50e7997f",
+          "block_time_utc": "2026-10-14T01:52:23+00:00",
+          "sources": [
+            "https://ethereum-rpc.publicnode.com"
+          ]
+        }
+      }
+    },
+    {
+      "name": "code-metadata-demo",
+      "command": [
+        "python3",
+        "-B",
+        "line-3/tools/code-metadata/demo.py"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "",
+      "stdout_sha256": "115e4123af0667b6b79c3fed0119a0bfb1a465ef6b08f4d2c07dbd33b0db1645",
+      "summary": {}
+    },
+    {
+      "name": "code-routes-demo",
+      "command": [
+        "python3",
+        "-B",
+        "line-3/tools/code-routes/demo.py"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "",
+      "stdout_sha256": "83bc5c5f7037f13eeceaf228881865cc60b2b77867c25b8a4471620675e6bc90",
+      "summary": {}
+    },
+    {
+      "name": "rehearsal-binding-demo",
+      "command": [
+        "python3",
+        "-B",
+        "line-4/tools/rehearsal-binding/rehearsal_binding.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "",
+      "stdout_sha256": "7e881cfd9b7a917490c4fa67a11c16cadc34104c7c00797d0ca844c2114becc0",
+      "summary": {
+        "schema": "rehearsal-binding-v1",
+        "verdict": "bound",
+        "limits": "Bound means only that this explicit call and expected bytes match saved provider evidence at the exact reviewed historical block. It is not approval to transact. The sender may be a contract: this does not prove that anyone can originate the call. No nonce, gas, fees, access list, wallet wrapping, signatures, state effects, ABI meaning, balances, current state or future success are checked. Even a returned ABI false may be bound if those exact bytes were expected. Digests identify input content; they do not authenticate a provider or the chain. Nothing is sent."
+      }
+    },
+    {
+      "name": "rehearsal-set-demo",
+      "command": [
+        "python3",
+        "-B",
+        "line-4/tools/rehearsal-set/rehearsal_set.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "",
+      "stdout_sha256": "f2140b473dc7f324ba400eea469c4867470f7a499ac94e8c8f62a367c3f4e289",
+      "summary": {
+        "schema": "rehearsal-set-v1",
+        "verdict": "bound",
+        "block": {
+          "number": "0x18f99d1",
+          "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+          "timestamp": "0x6aceffd7"
+        },
+        "limits": "Bound means complete matching historical provider evidence for independent calls at one exact block. Calls do not share simulated writes: this is not a sequence, multicall, atomic transaction, or state-effect simulation. Order has no execution meaning. Expected bytes are supplied by the reviewer; an expected ABI false can match. No ABI authentication, gas, fees, nonce, authority, current state or future success is established. Digests identify content, not authenticity. Nothing is sent."
+      }
     },
     {
       "name": "surface-call-demo",
@@ -1060,7 +1344,7 @@
       "exit": 0,
       "passed": true,
       "stderr": "",
-      "stdout_sha256": "09d4838efdcf528be77f15aaa963d6ce7e8422649be6fb2028193f867d0c071a",
+      "stdout_sha256": "71013790cfad9990a298c0c71a4ebcdab9ba7d37e0db8b52d338f64daab2d0e5",
       "summary": {
         "schema": "zto-refresh-report-v1",
         "block": {
@@ -1825,8 +2109,28 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 14 tests in 0.465s\nOK\n",
+      "stderr": "Ran 14 tests in 0.493s\nOK\n",
       "test_count": 14
+    },
+    {
+      "name": "rehearsal-binding-suite",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/rehearsal-binding",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "Ran 1 test in 0.002s\nOK\n",
+      "test_count": 1
     },
     {
       "name": "review-rehearsal-context-suite",
@@ -1865,7 +2169,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 12 tests in 0.069s\nOK\n",
+      "stderr": "Ran 12 tests in 0.032s\nOK\n",
       "test_count": 12
     },
     {
@@ -1885,7 +2189,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 23 tests in 2.395s\nOK\n",
+      "stderr": "Ran 23 tests in 1.513s\nOK\n",
       "test_count": 23
     },
     {
@@ -1905,7 +2209,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 3 tests in 0.336s\nOK\n",
+      "stderr": "Ran 3 tests in 0.238s\nOK\n",
       "test_count": 3
     },
     {
@@ -1925,7 +2229,7 @@
       "expected_exit": 0,
       "exit": 0,
       "passed": true,
-      "stderr": "Ran 11 tests in 0.303s\nOK\n",
+      "stderr": "Ran 11 tests in 0.202s\nOK\n",
       "test_count": 11
     },
     {
@@ -2025,6 +2329,76 @@
         "schema": "swap-code-context-v1",
         "decision": "refuse",
         "limits": "Caller must independently select and trust the swap policy, code reviews, manifest, reference height and code-block anchor. Matching historical evidence is no execution, token-behavior, settlement, provider-authenticity or future-liquidity guarantee. No wallet, key or transaction is used."
+      }
+    },
+    {
+      "name": "rehearsal-set-suite",
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/rehearsal-set",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "Ran 41 tests in 0.599s\nOK\n",
+      "test_count": 41
+    },
+    {
+      "name": "shared-rehearsal-set-demo",
+      "command": [
+        "python3",
+        "-B",
+        "shared/rehearsal-set/rehearsal_set.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "",
+      "stdout_sha256": "f2140b473dc7f324ba400eea469c4867470f7a499ac94e8c8f62a367c3f4e289",
+      "summary": {
+        "schema": "rehearsal-set-v1",
+        "verdict": "bound",
+        "planned_count": 3,
+        "matched_count": 3,
+        "block": {
+          "number": "0x18f99d1",
+          "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+          "timestamp": "0x6aceffd7"
+        }
+      }
+    },
+    {
+      "name": "set-surface-demo",
+      "command": [
+        "python3",
+        "-B",
+        "shared/rehearsal-set/set_surface.py",
+        "--demo"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "stderr": "",
+      "stdout_sha256": "3d78f8f939ffda486f379a9782969776f7504b7a4f7a22443a6cdadea0f16970",
+      "summary": {
+        "schema": "set-surface-context-v1",
+        "verdict": "aligned",
+        "planned_count": 1,
+        "matched_count": 1,
+        "block": {
+          "number": "0x18f9518",
+          "hash": "0xb6e55dcdf6ded6229f188d80f0b986222b198d104e09e9194bb8d97539355a06",
+          "timestamp": "0x6acec6d7"
+        }
       }
     }
   ]

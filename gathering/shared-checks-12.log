@@ -1,0 +1,46 @@
+test_bad_return_interpretation_is_inconclusive (test_rehearsal_set.RehearsalSetTests.test_bad_return_interpretation_is_inconclusive) ... ok
+test_chain_boolean_and_wrong_chain_rejected (test_rehearsal_set.RehearsalSetTests.test_chain_boolean_and_wrong_chain_rejected) ... ok
+test_changed_block_fields (test_rehearsal_set.RehearsalSetTests.test_changed_block_fields) ... ok
+test_changed_caller_target_data_value (test_rehearsal_set.RehearsalSetTests.test_changed_caller_target_data_value) ... ok
+test_changed_return (test_rehearsal_set.RehearsalSetTests.test_changed_return) ... ok
+test_cli_demo_has_no_network (test_rehearsal_set.RehearsalSetTests.test_cli_demo_has_no_network) ... ok
+test_cli_exit_categories (test_rehearsal_set.RehearsalSetTests.test_cli_exit_categories) ... ok
+test_does_not_mutate_inputs (test_rehearsal_set.RehearsalSetTests.test_does_not_mutate_inputs) ... ok
+test_duplicate_ids_rejected_in_both_inputs (test_rehearsal_set.RehearsalSetTests.test_duplicate_ids_rejected_in_both_inputs) ... ok
+test_expected_false_only_means_bytes_match (test_rehearsal_set.RehearsalSetTests.test_expected_false_only_means_bytes_match) ... ok
+test_identifiers (test_rehearsal_set.RehearsalSetTests.test_identifiers) ... ok
+test_invalid_extra_entry_is_validated (test_rehearsal_set.RehearsalSetTests.test_invalid_extra_entry_is_validated) ... ok
+test_mismatch_takes_precedence_over_missing (test_rehearsal_set.RehearsalSetTests.test_mismatch_takes_precedence_over_missing) ... ok
+test_missing_call_withholds_whole_set (test_rehearsal_set.RehearsalSetTests.test_missing_call_withholds_whole_set) ... ok
+test_missing_sender_never_defaults (test_rehearsal_set.RehearsalSetTests.test_missing_sender_never_defaults) ... ok
+test_nonempty_bounded_sets (test_rehearsal_set.RehearsalSetTests.test_nonempty_bounded_sets) ... ok
+test_order_is_not_execution_order (test_rehearsal_set.RehearsalSetTests.test_order_is_not_execution_order) ... ok
+test_relay_provenance_is_retained_and_validated (test_rehearsal_set.RehearsalSetTests.test_relay_provenance_is_retained_and_validated) ... ok
+test_revert_is_not_success (test_rehearsal_set.RehearsalSetTests.test_revert_is_not_success) ... ok
+test_rpc_failure_is_inconclusive (test_rehearsal_set.RehearsalSetTests.test_rpc_failure_is_inconclusive) ... ok
+test_same_call_cannot_be_counted_twice (test_rehearsal_set.RehearsalSetTests.test_same_call_cannot_be_counted_twice) ... ok
+test_saved_real_set (test_rehearsal_set.RehearsalSetTests.test_saved_real_set) ... ok
+test_strict_json_and_size (test_rehearsal_set.RehearsalSetTests.test_strict_json_and_size) ... ok
+test_unexpected_entry (test_rehearsal_set.RehearsalSetTests.test_unexpected_entry) ... ok
+test_unknown_fields_are_rejected (test_rehearsal_set.RehearsalSetTests.test_unknown_fields_are_rejected) ... ok
+test_workspace_containment (test_rehearsal_set.RehearsalSetTests.test_workspace_containment) ... ok
+test_wrong_identifier_does_not_remap_evidence (test_rehearsal_set.RehearsalSetTests.test_wrong_identifier_does_not_remap_evidence) ... ok
+test_changed_expected_return_withholds (test_set_surface.SetSurfaceTests.test_changed_expected_return_withholds) ... ok
+test_cli_no_network_and_option_pairing (test_set_surface.SetSurfaceTests.test_cli_no_network_and_option_pairing) ... ok
+test_corrupt_proof_rejected (test_set_surface.SetSurfaceTests.test_corrupt_proof_rejected) ... ok
+test_exact_choice_and_proof_coverage (test_set_surface.SetSurfaceTests.test_exact_choice_and_proof_coverage) ... ok
+test_extra_choice_fields_refused (test_set_surface.SetSurfaceTests.test_extra_choice_fields_refused) ... ok
+test_invalid_transport_not_silently_discarded (test_set_surface.SetSurfaceTests.test_invalid_transport_not_silently_discarded) ... ok
+test_manifest_duplicates_and_workspace_escape (test_set_surface.SetSurfaceTests.test_manifest_duplicates_and_workspace_escape) ... ok
+test_missing_sender_never_filled (test_set_surface.SetSurfaceTests.test_missing_sender_never_filled) ... ok
+test_partial_success_is_not_released (test_set_surface.SetSurfaceTests.test_partial_success_is_not_released) ... ok
+test_real_same_block_join (test_set_surface.SetSurfaceTests.test_real_same_block_join) ... ok
+test_real_three_member_set_with_older_code_withholds_all (test_set_surface.SetSurfaceTests.test_real_three_member_set_with_older_code_withholds_all) ... ok
+test_same_changed_block_labels_do_not_relabel_proof (test_set_surface.SetSurfaceTests.test_same_changed_block_labels_do_not_relabel_proof) ... ok
+test_valid_explicit_cli_manifest (test_set_surface.SetSurfaceTests.test_valid_explicit_cli_manifest) ... ok
+test_wrong_selector_and_layout_withhold (test_set_surface.SetSurfaceTests.test_wrong_selector_and_layout_withhold) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.534s
+
+OK

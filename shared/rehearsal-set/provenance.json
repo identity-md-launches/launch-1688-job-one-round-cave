@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "source": "line-4/tools/rehearsal-set/rehearsal_set.py",
+      "copy": "shared/rehearsal-set/rehearsal_set.py",
+      "sha256": "a79f859eb1edb6f49c8ca9a1524191d118b35f389736a223150f6a59d8bdbb8a",
+      "changes": "none"
+    },
+    {
+      "source": "line-4/tools/rehearsal-set/zto-set-evidence.json",
+      "copy": "shared/rehearsal-set/zto-set-evidence.json",
+      "sha256": "d7248403c53d06f25086dae52d90a4298f6fe2cc9115ad2cd4a0c75a06a2cf4c",
+      "changes": "none"
+    },
+    {
+      "source": "line-4/tools/rehearsal-set/zto-set-plan.json",
+      "copy": "shared/rehearsal-set/zto-set-plan.json",
+      "sha256": "156a6f43990f61fae620875aaccbed8d6b8f1196d97399e6687997857b72a64e",
+      "changes": "none"
+    },
+    {
+      "source": "line-4/tools/rehearsal-set/test_rehearsal_set.py",
+      "copy": "shared/rehearsal-set/test_rehearsal_set.py",
+      "sha256": "4f6da54e31998dc69d0c9c3b5f46a25a2c1845aba789ca0cb21fea85b472cba2",
+      "changes": "none"
+    }
+  ],
+  "dependencies": [
+    "shared/rehearsal-binding",
+    "shared/rehearsal-binding/call-rehearsal"
+  ],
+  "scope": "Offline promotion. No line file changed."
+}

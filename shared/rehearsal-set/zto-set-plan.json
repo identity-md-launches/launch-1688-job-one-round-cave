@@ -1,0 +1,41 @@
+{
+  "schema": "rehearsal-set-v1",
+  "chain_id": 1,
+  "block": {
+    "number": "0x18f99d1",
+    "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+    "timestamp": "0x6aceffd7"
+  },
+  "calls": [
+    {
+      "id": "zto-supply",
+      "call": {
+        "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "data": "0x18160ddd",
+        "value": "0x0",
+        "from": "0x000000000004444c5dc75cb358380d2e3de08a90"
+      },
+      "expected_return": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000"
+    },
+    {
+      "id": "zto-manager-balance",
+      "call": {
+        "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "data": "0x70a08231000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+        "value": "0x0",
+        "from": "0x000000000004444c5dc75cb358380d2e3de08a90"
+      },
+      "expected_return": "0x000000000000000000000000000000000000000000fc16a59c9c5c1ee5412b64"
+    },
+    {
+      "id": "imd-supply",
+      "call": {
+        "to": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+        "data": "0x18160ddd",
+        "value": "0x0",
+        "from": "0x000000000004444c5dc75cb358380d2e3de08a90"
+      },
+      "expected_return": "0x0000000000000000000000000000000000000000000373eb74041a59dacbb000"
+    }
+  ]
+}

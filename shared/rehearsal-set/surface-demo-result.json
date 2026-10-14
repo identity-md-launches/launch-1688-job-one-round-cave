@@ -1,0 +1,62 @@
+{
+  "schema": "set-surface-context-v1",
+  "verdict": "aligned",
+  "binding_verdict": "bound",
+  "block": {
+    "number": "0x18f9518",
+    "hash": "0xb6e55dcdf6ded6229f188d80f0b986222b198d104e09e9194bb8d97539355a06",
+    "timestamp": "0x6acec6d7"
+  },
+  "planned_count": 1,
+  "matched_count": 1,
+  "missing_ids": [],
+  "unexpected_ids": [],
+  "binding_reasons": [
+    {
+      "id": "zto-manager-balance",
+      "verdict": "bound",
+      "reason": "explicit call, exact block and expected return bytes all match"
+    }
+  ],
+  "input_sha256": {
+    "plan": "f5380838731434c47b7f795efc481bd8a49fcb30d523ef2b158f2c6574736f42",
+    "evidence": "ae51e01faba3cbced963cc91fb506c48d071849170d6b3146d70a8177850d22d",
+    "choices": "0700c3b545cc40e9b66bcf39c5b0d100107f68b7c671158ed5b4219bf6cfb002",
+    "proofs": {
+      "zto-manager-balance": "6d8cfd3b0ae6d13de4ca35d80a207b7cd973a47aed259960ba9bd1c4084f0c7c"
+    },
+    "anchor": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  "code_checks": [
+    {
+      "id": "zto-manager-balance",
+      "verdict": "aligned",
+      "failed_checks": [],
+      "proof_anchor": "unanchored-rpc-header",
+      "state_inclusion_verified": true,
+      "source": "https://ethereum-rpc.publicnode.com",
+      "transport": null
+    }
+  ],
+  "decoded_calls": [
+    {
+      "id": "zto-manager-balance",
+      "target": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+      "signature": "balanceOf(address)",
+      "arguments": [
+        {
+          "type": "address",
+          "value": "0x000000000004444c5dc75cb358380d2e3de08a90"
+        }
+      ],
+      "returns": [
+        {
+          "type": "uint256",
+          "value": "285939607966355541747129965"
+        }
+      ]
+    }
+  ],
+  "limits": "Independent historical calls, not a stateful sequence or multicall. Signatures and return layouts are reviewer choices, not authenticated ABI. Selector patterns do not establish reachability or behavior. Code inclusion is relative to supplied headers; call returns remain unproven RPC claims. An anchor hash is an equality check, not authentication. No current-state, authority, gas, effects, safety, or future-execution guarantee. Nothing is sent.",
+  "reason": "Every planned call binds and its code, calldata and return context align."
+}

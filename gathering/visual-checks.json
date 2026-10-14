@@ -1,23 +1,23 @@
 {
-  "schema": "gathering-visual-preservation-v11",
-  "source_sha256": "c9709a5bb05cf0b90c21798b96a47afb4600010e104a782b1f2fe708a36e7fcf",
-  "image_tool_output_sha256": "51c7a04f84234d0acb8a382dd0733dc30c42951d57faffa8b79272a540ccda4a",
-  "output_sha256": "814f0f5c9896b51f4dace8abd27a05f813544ba01a01228f85b6645d6f4cd3f2",
+  "schema": "gathering-visual-preservation-v12",
+  "source_sha256": "814f0f5c9896b51f4dace8abd27a05f813544ba01a01228f85b6645d6f4cd3f2",
+  "image_tool_output_sha256": "089b118ed0d50e5ff5db230f9cc6c6cf86f55eb0d3dfe222b6d1ced2f7d2ddf9",
+  "output_sha256": "6c457536bdc32d741c733729c3e52565d46f414edba84c44573918efd8172317",
   "format": "PNG RGB 8-bit",
   "width": 1254,
   "height": 1254,
   "addition_rectangle": [
-    750,
-    235,
-    865,
-    345
+    780,
+    570,
+    880,
+    675
   ],
-  "changed_pixels": 4311,
+  "changed_pixels": 4022,
   "changed_pixels_outside_addition": 0,
   "ancestral_pigment_intersects_addition": false,
   "left_hand_digits": 5,
   "right_hand_digits": 5,
   "new_hands": 0,
   "unmet_visual_requirements_observed": [],
-  "review_limits": "Visual character and digit counts are subjective review; raster preservation is measured outside the addition."
+  "review_limits": "Pigment and digits reviewed visually; unchanged pixels measured outside the selected motif."
 }

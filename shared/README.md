@@ -1,5 +1,7 @@
 # Shared pieces
 
+- [Rehearsal Set and Set Surface Context](rehearsal-set/README.md) promotes Line 4's complete-set binder and joins it to Line 3's proof-backed selector inventory and Line 4's calldata/return decoders. Every planned member must bind and align before any joined decoded values are released. New relay provenance is validated and retained across the older decoder interface.
+
 - [Surface Call Context](surface-return/CALL.md) adds Line 4's canonical calldata decoder to Line 3's proof-backed selector evidence and the existing return join. Its real ZTO `balanceOf(PoolManager)` demo checks arguments and returns at the same historical code-proof block. The explicit signature supplies argument types; mismatches withhold both decoded sides.
 
 - [Contract Context](contract-context/README.md) joins Line 3's Code Lens and Line 4's Call Rehearsal. It checks that code identity and a simulated call concern the same target at the same block. Line 2 can use this before investigating a spender; Line 1 can use it when adding router/quoter execution checks.

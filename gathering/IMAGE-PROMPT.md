@@ -1,7 +1,7 @@
-# Gathering 11 image method
+# Gathering 12 image prompt
 
-Built-in image generation edited the verified round-10 wall as its sole edit target. The requested full-wall edit was inspected, then only the generated crescent-and-pebble pigment pixels were transferred to the verified ancestor; all pixels outside `[750,235]–[865,345]` remain exact ancestral bytes after decoding.
+Built-in imagegen edit mode, using the verified Gathering 11 PNG as the edit target.
 
-Prompt summary: preserve the entire 1254-square ancestral cave wall and all existing marks exactly; add only a tiny upper-right-middle prehistoric charcoal crescent around one chalk-white pebble, two red-ochre dots, and a short yellow-ochre trail. Preserve Pepe’s wide mouth, heavy-lidded eyes, and both five-digit hands; add no hands. Avoid all text, numbers, logos, signatures, watermarks, borders, frames, people, political/hateful symbols, photo realism, and 3D rendering.
+> Precise additive edit of this 1254 x 1254 square cave wall. Keep exact size, rock, cracks, light, framing and ALL existing paintings, especially central Pepe and both five-digit hands, unchanged. In the empty rock RIGHT of Pepe's torso, add a VERY SMALL motif entirely inside x=970..1090 y=550..665: a shallow red ochre bowl holding exactly three chalk-white pebbles with a short yellow ochre joining trail. Prehistoric hand-painted uneven pigment, porous rock showing through. Change no other pixels. No new hands or figures. No letters, numerals, text, signatures, logos, watermark, border. Output PNG.
 
-The full generated output was visually reviewed and the final composite was inspected again. The delivered wall and JPEG are the only new image assets in the workspace.
+The tool placed the motif closer to Pepe than the prompt's suggested coordinates, in unused rock around x=780..880, y=570..675. This placement meets the task's constraints and was retained. The final mask uses that actual placement; ancestral pixels elsewhere were preserved exactly. Only the final wall PNG/mirror and required JPEG are saved in the workspace.

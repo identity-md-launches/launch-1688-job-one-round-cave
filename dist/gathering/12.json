@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Complete Bowl",
+  "image": "https://api.imd.fun/artifacts/6c457536bdc32d741c733729c3e52565d46f414edba84c44573918efd8172317",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Moss"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 12
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Set Surface Context"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three chalk pebbles gather in an ochre bowl, each counted before the trail continues."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
     }
   ]
 }
