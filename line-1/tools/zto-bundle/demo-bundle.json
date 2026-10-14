@@ -1,0 +1,204 @@
+{
+  "handoff": {
+    "block": {
+      "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+      "number": "0x18f8a44",
+      "timestamp": "0x6ace4457"
+    },
+    "chain_id": 1,
+    "handoff_sha256": "5881b65c890a79ea8f9f2d0afd3e9c8e0798f7e56d130f75a9ea7584bf373da7",
+    "input_token": "ZTO",
+    "limitations": [
+      "No recipient, router, calldata, gas setting, signature, or transaction is prepared.",
+      "The minimum is a reviewed planning bound, not an enforced or guaranteed receipt.",
+      "Historical evidence is not a current quote, execution simulation, or settlement proof."
+    ],
+    "minimum_output": "1184.169088029408336486",
+    "minimum_output_raw": "1184169088029408336486",
+    "mode": "historical_demo",
+    "output_token": "IMD",
+    "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+    "requested_input": "100000000",
+    "requested_input_raw": "100000000000000000000000000",
+    "review_age_blocks": 0,
+    "review_reference_block": 26184260,
+    "schema": "zto-bound-handoff-v1",
+    "settlement": "unspecified",
+    "slippage_bps": 100,
+    "source_digests": {
+      "policy_sha256": "56e52bdf5c69ae7cb2a4c6127cd41a1dc7a585c6eaba4ab385ddd5687613e0c1",
+      "report_sha256": "ec2b2bc07494da7fc8d392b747e1e8db92af12d3cd2c3cf3ca9e63ad844d68e7",
+      "snapshot_sha256": "3b86531e4460f2e694b7f824ed5027bf9230a331025d7cbddf0ef759ef560a30"
+    },
+    "status": "ready_for_human_review",
+    "transaction": null
+  },
+  "policy": {
+    "amounts": [
+      "1",
+      "100000000",
+      "1000000000"
+    ],
+    "block_hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+    "block_number": 26184260,
+    "input_token": "ZTO",
+    "max_age_blocks": 0,
+    "max_spot_loss_bps": null,
+    "reference_block": 26184260,
+    "schema": "zto-review-policy-v1",
+    "slippage_bps": 100,
+    "snapshot_sha256": "3b86531e4460f2e694b7f824ed5027bf9230a331025d7cbddf0ef759ef560a30"
+  },
+  "report": {
+    "block": {
+      "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+      "number": "0x18f8a44",
+      "timestamp": "0x6ace4457"
+    },
+    "candidate_count": 2,
+    "candidates": [
+      {
+        "amount": "1",
+        "estimate": {
+          "fee": "0.0125",
+          "fee_raw": "12500000000000000",
+          "input_consumed_raw": "1000000000000000000",
+          "input_unspent_raw": "0",
+          "liquidity_after_raw": "1395488085257384418720526",
+          "output": "0.000015292155595473",
+          "output_raw": "15292155595473",
+          "sqrt_price_after_x96": "20133245180955745131062960496531",
+          "tick_after": 110761
+        },
+        "gross_spot_output_raw": {
+          "denominator": "405347559258943563746907121288118744811476328800693776702884841",
+          "numerator": "6277101735386680763835789423207666416102355444464034512896000000000000000000"
+        },
+        "initialized_ticks_crossed": 0,
+        "minimum_output": "0.000015139234039518",
+        "minimum_output_raw": "15139234039518",
+        "pool_status": "estimated",
+        "requested_input_raw": "1000000000000000000",
+        "spot_loss_bps": {
+          "ceiling": 126,
+          "denominator": "627710173538668076383578942320766641610235544446403451289600000000000000",
+          "numerator": "78463788953703496164804218803930677239880316488617232084570769680700075207"
+        },
+        "status": "candidate"
+      },
+      {
+        "amount": "100000000",
+        "estimate": {
+          "fee": "1250000",
+          "fee_raw": "1250000000000000000000000",
+          "input_consumed_raw": "100000000000000000000000000",
+          "input_unspent_raw": "0",
+          "liquidity_after_raw": "1395488085257384418720526",
+          "output": "1196.130391948897309582",
+          "output_raw": "1196130391948897309582",
+          "sqrt_price_after_x96": "25739728713635116843076933370750",
+          "tick_after": 115674
+        },
+        "gross_spot_output_raw": {
+          "denominator": "405347559258943563746907121288118744811476328800693776702884841",
+          "numerator": "627710173538668076383578942320766641610235544446403451289600000000000000000000000000"
+        },
+        "initialized_ticks_crossed": 0,
+        "minimum_output": "1184.169088029408336486",
+        "minimum_output_raw": "1184169088029408336486",
+        "pool_status": "estimated",
+        "requested_input_raw": "100000000000000000000000000",
+        "spot_loss_bps": {
+          "ceiling": 2276,
+          "denominator": "31385508676933403819178947116038332080511777222320172564480000000000000000000000",
+          "numerator": "71430819303369516402807820491354732580261353388516166447127459449139536398564076769"
+        },
+        "status": "candidate"
+      },
+      {
+        "amount": "1000000000",
+        "initialized_ticks_crossed": 1,
+        "partial": {
+          "fee": "6650409.671857577335859627",
+          "fee_raw": "6650409671857577335859627",
+          "input_consumed_raw": "532032773748606186868770127",
+          "input_unspent_raw": "467967226251393813131229873",
+          "liquidity_after_raw": "0",
+          "output": "3278.572212001747676444",
+          "output_raw": "3278572212001747676444",
+          "sqrt_price_after_x96": "79299443975792720780679863727831",
+          "tick_after": 138180
+        },
+        "pool_status": "outside_coverage",
+        "requested_input_raw": "1000000000000000000000000000",
+        "status": "incomplete"
+      }
+    ],
+    "chain_id": 1,
+    "input_token": "ZTO",
+    "largest_candidate_input_raw": "100000000000000000000000000",
+    "limitations": [
+      "Historical snapshot is not a current quote or freshness guarantee.",
+      "Minimum is a planning number, not an enforced or guaranteed receipt.",
+      "Spot loss includes fees and rounding; it is separate from slippage tolerance.",
+      "No router calldata, settlement, transfer behavior, gas or MEV simulation.",
+      "Largest candidate means largest supplied amount passing the chosen filters, not pool capacity."
+    ],
+    "max_spot_loss_bps": null,
+    "minimum_rounding": "floor(estimated_output_raw * (10000 - slippage_bps) / 10000)",
+    "output_token": "IMD",
+    "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+    "schema": "zto-sizes-report-v1",
+    "scope": "Independent candidate sizes at one observed block; no trade recommendation.",
+    "slippage_bps": 100,
+    "source": "https://ethereum-rpc.publicnode.com"
+  },
+  "schema": "zto-evidence-bundle-v1",
+  "snapshot": {
+    "base": {
+      "block": {
+        "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+        "number": "0x18f8a44",
+        "timestamp": "0x6ace4457"
+      },
+      "chain_id": "0x1",
+      "initialize": {
+        "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "blockHash": "0xe023051b4669c8f9e8310c3d037127616c4e4b3d50f2fe5ee8a17ca3c5be6751",
+        "blockNumber": "0x18eb348",
+        "blockTimestamp": "0x6ac4279f",
+        "data": "0x00000000000000000000000000000000000000000000000000000000000030d4000000000000000000000000000000000000000000000000000000000000003c000000000000000000000000784ff9a3ac5d88a30bfff6f7f2a270161fbe60000000000000000000000000000000000000000278749dbf52eb104273e468cc42000000000000000000000000000000000000000000000000000000000001f7e6",
+        "logIndex": "0x78",
+        "removed": false,
+        "topics": [
+          "0xdd466e674ea557f56295e2d0218a125ea4b4f0f6f3307b95f85e6110838d6438",
+          "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+          "0x000000000000000000000000d34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+          "0x000000000000000000000000d782bdea4ef02a0bd391eb9089470c8080f0a68e"
+        ],
+        "transactionHash": "0x39c8e5c567e295c1eace7243a2d6eca7a64f1bfcc05a4d51b5f3192671427630",
+        "transactionIndex": "0xf"
+      },
+      "raw": {
+        "imd_decimals": "0x0000000000000000000000000000000000000000000000000000000000000012",
+        "liquidity": "0x0000000000000000000000000000000000000000000127818f8918d6e941bb0e",
+        "slot0": "0x00000000000000000000000000000000000000fe1e0608fb7ee8f609e14455d3000000000000000000000000000000000000000000000000000000000001b0a9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030d4",
+        "state_view_manager": "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+        "zto_decimals": "0x0000000000000000000000000000000000000000000000000000000000000012"
+      },
+      "schema": "zto-band-observation-v1",
+      "source": "https://ethereum-rpc.publicnode.com"
+    },
+    "bitmap": {
+      "6": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "7": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "8": "0x0000000000000000000000000000000000000020000000000000000000000000"
+    },
+    "schema": "zto-path-observation-v1",
+    "ticks": {
+      "128940": "0x0000000000000000000000000000000000000000000127818f8918d6e941bb0efffffffffffffffffffffffffffffffffffffffffffed87e7076e72916be44f2"
+    },
+    "word_radius": 1
+  },
+  "bundle_sha256": "bf426535e42955af1cfc5eb8bc045d794e45e06cb4bc893718733bc1746c538e"
+}

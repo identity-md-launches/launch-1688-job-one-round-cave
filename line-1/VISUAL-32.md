@@ -1,0 +1,13 @@
+# Three Stones One Pouch
+
+The finished wall is `artifacts/line-1/wall-v12.png`, duplicated as the continuing `artifacts/line-1/wall.png`: RGB PNG, 1254 × 1254 pixels, same dimensions and framing as the recovered ancestor wall. `dist/line-1/32.jpg` is its 512 × 512 baseline JPEG companion, 55,569 bytes. Record 32 uses the lowercase SHA-256 of the final PNG, not the generated motif.
+
+The new mark is three irregular ochre stones carried together in a charcoal woven pouch with a red ochre cord. It represents the snapshot, report and policy that now travel with a planning handoff. The installed image tool generated actual pigment bytes; its transparent carrier was decoded in memory and only pigment was composited onto the existing rock. All 3,436 changed pixels are within x=[710,803), y=[392,472); zero pixels outside changed. The cave rock, cracks, lighting, framing and ancestor marks remain unchanged. No temporary or alternate image remains.
+
+Chosen review: inspected the recovered wall, generated motif and final full wall through the image viewer. The new mark occupies the clear gap between the two inherited Pepe heads, with a worn charcoal/ochre appearance and visible bare rock. Both inherited frogs retain their wide mouths and heavy-lidded eyes. The large ancestor figure's two hands each show four fingers and one thumb; this round introduces no hands or stencils. No letters, numbers, captions, logo, watermark, border, real person or prohibited symbol was added. The pouch's uneven weave is pictorial texture, not writing.
+
+Unmet visual requirements: none observed. Limitations: the addition is intentionally small, and its three stones are less distinct at thumbnail scale. Pixel preservation verifies the bounded edit, not aesthetic quality. The review is contributor evidence and is not independent certification.
+
+Exact image-tool prompt:
+
+> Use case: illustration-story. A single isolated tiny prehistoric cave pigment motif centered on plain white carrier for compositing into an existing cave wall. Draw three distinct small irregular pebbles gathered inside one open shallow woven pouch, a single red ochre cord encircling them; charcoal outlines, yellow ochre stone interiors, rough dry thumb pigment with many worn gaps, uneven handmade Lascaux/Chauvet marks. The motif should occupy the central half of the square, with ample pure white space around it. No wall background; white carrier. No letters, numbers, signatures, logos, border or frame, no hands, no people, no 3D, no photograph. This symbolizes one portable bundle holding three pieces of historical pool evidence.

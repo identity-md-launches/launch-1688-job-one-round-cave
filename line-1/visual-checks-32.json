@@ -1,0 +1,28 @@
+{
+  "ancestor_sha256": "4632ab402b4eeec7c8ff6fa7cbaa4a8ac55f2853f74da80f711d57a1ea61bdae",
+  "generated_motif_sha256": "a47cb10a2659c7f00ddfc45ed096ab38741a50edb7b93a138d48632416bbdc77",
+  "wall_sha256": "ffb3a8b9acfea3c8a7cb848c64e2f2be51d938050e807f0844ff5332d95cc698",
+  "wall": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3974591
+  },
+  "jpeg": {
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 55569
+  },
+  "addition_box": [
+    710,
+    392,
+    803,
+    472
+  ],
+  "changed_pixels_inside": 3436,
+  "changed_pixels_outside": 0,
+  "method": "Generated charcoal/ochre pigment resampled into open rock; ancestor pixels preserved elsewhere",
+  "unmet_visual_requirements": []
+}
