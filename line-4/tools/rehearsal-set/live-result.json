@@ -1,0 +1,171 @@
+{
+  "schema": "rehearsal-set-v1",
+  "verdict": "bound",
+  "reason": "every planned independent call matches at the exact reviewed block",
+  "chain_id": 1,
+  "block": {
+    "number": "0x18f99d1",
+    "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+    "timestamp": "0x6aceffd7"
+  },
+  "planned_count": 3,
+  "observed_count": 3,
+  "matched_count": 3,
+  "missing_ids": [],
+  "unexpected_ids": [],
+  "results": [
+    {
+      "id": "zto-supply",
+      "binding": {
+        "schema": "rehearsal-binding-v1",
+        "verdict": "bound",
+        "reason": "explicit call, exact block and expected return bytes all match",
+        "plan": {
+          "schema": "rehearsal-binding-v1",
+          "chain_id": 1,
+          "call": {
+            "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+            "data": "0x18160ddd",
+            "value": "0x0",
+            "from": "0x000000000004444c5dc75cb358380d2e3de08a90"
+          },
+          "block": {
+            "number": "0x18f99d1",
+            "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+            "timestamp": "0x6aceffd7"
+          },
+          "expected_return": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000"
+        },
+        "source": "https://ethereum-rpc.publicnode.com",
+        "observed_call": {
+          "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+          "data": "0x18160ddd",
+          "value": "0x0",
+          "from": "0x000000000004444c5dc75cb358380d2e3de08a90"
+        },
+        "observed_block": {
+          "number": "0x18f99d1",
+          "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+          "timestamp": "0x6aceffd7"
+        },
+        "result": {
+          "status": "returned",
+          "raw": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000",
+          "uint256": "1000000000000000000000000000"
+        },
+        "differences": [],
+        "plan_sha256": "f946311e26f081735dc34efb577bcb513c998eedb1c8675271b43abd9e31359a",
+        "evidence_sha256": "347b1877711a26abc4de149e79451d44a6f5c411ef06d89439062e83a550bc8b",
+        "limits": "Bound means only that this explicit call and expected bytes match saved provider evidence at the exact reviewed historical block. It is not approval to transact. The sender may be a contract: this does not prove that anyone can originate the call. No nonce, gas, fees, access list, wallet wrapping, signatures, state effects, ABI meaning, balances, current state or future success are checked. Even a returned ABI false may be bound if those exact bytes were expected. Digests identify input content; they do not authenticate a provider or the chain. Nothing is sent. Contributor relay source is attribution only; upstream identity and independence are unverified.",
+        "transport": {
+          "kind": "contributor-relay",
+          "source_is_attribution_only": true,
+          "independent_provider_verified": false
+        }
+      }
+    },
+    {
+      "id": "zto-manager-balance",
+      "binding": {
+        "schema": "rehearsal-binding-v1",
+        "verdict": "bound",
+        "reason": "explicit call, exact block and expected return bytes all match",
+        "plan": {
+          "schema": "rehearsal-binding-v1",
+          "chain_id": 1,
+          "call": {
+            "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+            "data": "0x70a08231000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+            "value": "0x0",
+            "from": "0x000000000004444c5dc75cb358380d2e3de08a90"
+          },
+          "block": {
+            "number": "0x18f99d1",
+            "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+            "timestamp": "0x6aceffd7"
+          },
+          "expected_return": "0x000000000000000000000000000000000000000000fc16a59c9c5c1ee5412b64"
+        },
+        "source": "https://ethereum-rpc.publicnode.com",
+        "observed_call": {
+          "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+          "data": "0x70a08231000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+          "value": "0x0",
+          "from": "0x000000000004444c5dc75cb358380d2e3de08a90"
+        },
+        "observed_block": {
+          "number": "0x18f99d1",
+          "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+          "timestamp": "0x6aceffd7"
+        },
+        "result": {
+          "status": "returned",
+          "raw": "0x000000000000000000000000000000000000000000fc16a59c9c5c1ee5412b64",
+          "uint256": "304756253603277900345322340"
+        },
+        "differences": [],
+        "plan_sha256": "b432ebce0a40d7baf140995a4e3963995b0a404d62cb54b1aae03b7a2a2c0e6b",
+        "evidence_sha256": "a516e693a5a65142fdc398808cdf9e214dbc8e407a824f3db138d6911267cf35",
+        "limits": "Bound means only that this explicit call and expected bytes match saved provider evidence at the exact reviewed historical block. It is not approval to transact. The sender may be a contract: this does not prove that anyone can originate the call. No nonce, gas, fees, access list, wallet wrapping, signatures, state effects, ABI meaning, balances, current state or future success are checked. Even a returned ABI false may be bound if those exact bytes were expected. Digests identify input content; they do not authenticate a provider or the chain. Nothing is sent. Contributor relay source is attribution only; upstream identity and independence are unverified.",
+        "transport": {
+          "kind": "contributor-relay",
+          "source_is_attribution_only": true,
+          "independent_provider_verified": false
+        }
+      }
+    },
+    {
+      "id": "imd-supply",
+      "binding": {
+        "schema": "rehearsal-binding-v1",
+        "verdict": "bound",
+        "reason": "explicit call, exact block and expected return bytes all match",
+        "plan": {
+          "schema": "rehearsal-binding-v1",
+          "chain_id": 1,
+          "call": {
+            "to": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+            "data": "0x18160ddd",
+            "value": "0x0",
+            "from": "0x000000000004444c5dc75cb358380d2e3de08a90"
+          },
+          "block": {
+            "number": "0x18f99d1",
+            "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+            "timestamp": "0x6aceffd7"
+          },
+          "expected_return": "0x0000000000000000000000000000000000000000000373eb74041a59dacbb000"
+        },
+        "source": "https://ethereum-rpc.publicnode.com",
+        "observed_call": {
+          "to": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+          "data": "0x18160ddd",
+          "value": "0x0",
+          "from": "0x000000000004444c5dc75cb358380d2e3de08a90"
+        },
+        "observed_block": {
+          "number": "0x18f99d1",
+          "hash": "0x852faa144e36a78b7a34c551c500fec88381b52da60607cb0a6a413ce9aefef7",
+          "timestamp": "0x6aceffd7"
+        },
+        "result": {
+          "status": "returned",
+          "raw": "0x0000000000000000000000000000000000000000000373eb74041a59dacbb000",
+          "uint256": "4174192949067000000000000"
+        },
+        "differences": [],
+        "plan_sha256": "07093a1115487e20499a8071934aec3b079c8bcc9404fe8ce8c3c2f0183601f5",
+        "evidence_sha256": "bdd746f981026e1b5c13b45c8b504011bf760be48a31aafcb67d9ebd1f4c74ba",
+        "limits": "Bound means only that this explicit call and expected bytes match saved provider evidence at the exact reviewed historical block. It is not approval to transact. The sender may be a contract: this does not prove that anyone can originate the call. No nonce, gas, fees, access list, wallet wrapping, signatures, state effects, ABI meaning, balances, current state or future success are checked. Even a returned ABI false may be bound if those exact bytes were expected. Digests identify input content; they do not authenticate a provider or the chain. Nothing is sent. Contributor relay source is attribution only; upstream identity and independence are unverified.",
+        "transport": {
+          "kind": "contributor-relay",
+          "source_is_attribution_only": true,
+          "independent_provider_verified": false
+        }
+      }
+    }
+  ],
+  "plan_sha256": "4e0e1e1c909560c1d0443d857639dca25ef8b8cc40e50bd20873daa242a3b052",
+  "evidence_sha256": "5590758e9417ae2e9df17e24cdbac9038f7201c7f6aa7dba982e655bb7eef099",
+  "limits": "Bound means complete matching historical provider evidence for independent calls at one exact block. Calls do not share simulated writes: this is not a sequence, multicall, atomic transaction, or state-effect simulation. Order has no execution meaning. Expected bytes are supplied by the reviewer; an expected ABI false can match. No ABI authentication, gas, fees, nonce, authority, current state or future success is established. Digests identify content, not authenticity. Nothing is sent."
+}

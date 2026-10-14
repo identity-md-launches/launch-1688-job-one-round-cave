@@ -1,0 +1,48 @@
+{
+  "focused_tests": {
+    "count": 27,
+    "passed": 27,
+    "command": "python3 -B -m unittest discover -s line-4/tools/rehearsal-set -p 'test_*.py' -v"
+  },
+  "cli_checks": [
+    {
+      "case": "complete",
+      "verdict": "bound",
+      "exit_code": 0
+    },
+    {
+      "case": "missing",
+      "verdict": "inconclusive",
+      "exit_code": 2
+    },
+    {
+      "case": "changed",
+      "verdict": "mismatch",
+      "exit_code": 1
+    },
+    {
+      "case": "invalid",
+      "verdict": "inconclusive",
+      "exit_code": 2
+    }
+  ],
+  "live_collection": {
+    "calls": 3,
+    "block_number": 26188241,
+    "verdict": "bound"
+  },
+  "goal_byte_identical": true,
+  "older_records_byte_identical": true,
+  "required_output_exists_untracked": true,
+  "record_shape_valid": true,
+  "png_dimensions": [
+    1254,
+    1254
+  ],
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "new_nonartifact_files_under_100kb": true,
+  "limits": "Local contributor checks only; no independent certification of provider claims or behavior."
+}

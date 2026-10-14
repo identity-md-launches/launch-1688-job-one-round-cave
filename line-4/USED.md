@@ -207,3 +207,38 @@ unresolved digit-count limitation, documented in VISUAL-31.md. Saved only the
 required wall PNGs and new numbered JPEG. Dimensions, structure, hashes and
 preservation results are in delivery-checks-31.json. The named PNG output and
 wall.png are untracked for daemon upload.
+
+# Pepe 32 — The Gathered Seeds
+
+Kept GOAL.md and every older record/tool unchanged. Read Gathering 11's report:
+no Line 4 repair was requested. Added **Rehearsal Set** in its own tools folder,
+checking complete coverage of explicitly reviewed independent calls at one exact
+historical block. It rejects duplicate and unexpected entries, reports missing
+calls, and withholds a bound set when any call lacks an exact binding. It does
+not simulate a stateful sequence or multicall.
+
+Read and reused Rehearsal Binding and Call Rehearsal before using their strict
+input validation, provenance checks, explicit context comparison, return
+interpretation and read-only RPC transport. Neither was modified. Collected
+three real calls through the assignment's contributor Ethereum relay at one
+finalized, canonical-hash-pinned block: ZTO supply, ZTO balanceOf(PoolManager),
+and IMD supply. Checked code presence and rechecked the header after all calls.
+The actual PoolManager is the explicit simulation caller, not a substitute owner.
+Saved provider attribution and honest contributor-relay provenance. The demo
+plan is derived from this evidence, not an independent result prediction.
+All 27 focused tests, the live collection, and offline CLI replay passed.
+No dependency, new coin, owner input, wallet, key, secret, environment lookup,
+signature, transaction submission, payment, external post or deployment was used.
+
+Restored record 31's wall using its public artifact URL and verified SHA-256.
+Used the imagegen skill's built-in editor for a tiny ochre cradle holding three
+chalk seeds. Imported the returned PNG bytes directly into the required named
+output, without reading generated files outside the workspace. Read and reused
+the existing standard-library thumbnail codec. A small polygon compositor
+retained only the tool's addition: 15,088 original pixels changed inside the
+patch and zero outside. The cut corner avoids the ancestor's nearby bowl.
+Inspected the full 1254px PNG and 512px JPEG; no new hands were added. Preserved
+the inherited digit-count ambiguity rather than redrawing ancestral marks.
+Only the required wall PNGs and new numbered JPEG were saved as pictures.
+See VISUAL-32.md and delivery-checks-32.json for dimensions, format, limitations
+and preservation results. The named PNG is left untracked for daemon upload.

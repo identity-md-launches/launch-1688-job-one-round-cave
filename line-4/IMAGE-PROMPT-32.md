@@ -1,0 +1,6 @@
+# The Gathered Seeds
+
+Built-in imagegen edit, using the verified record 31 wall as the sole edit target.
+The final asset retains only the additive patch from this result; see VISUAL-32.md.
+
+Use case: precise-object-edit. Edit the supplied ancestral Pepeolithic cave wall, keeping its original 1254 by 1254 square dimensions and framing. Preserve absolutely every existing painted mark, Pepe figure, rock detail, crack, colour and torchlight. Add just one tiny new prehistoric mark in the unused bare rock rectangle x=275..415, y=945..1075 (below-left of the existing bowl, above the horizontal low crack). The new mark is three small flat chalk-white seeds enclosed together in a rough incomplete red-ochre oval cradle, with a few charcoal woven strokes underneath: one complete gathered set. Keep the mark entirely within that rectangle, modest in size, worn and hand-drawn, with bare rock texture showing through. Earth pigments only. Do not add any hands, handprints, frogs or figures. Do not alter or redraw the inherited wide-mouthed heavy-lidded Pepe or any inherited hands. No letters, numbers, text, caption, signature, logo, watermark, frame, or border. No photographic objects or 3D object rendering. Output the whole edited wall, not a cropped detail. All pixels outside the addition should remain unchanged.

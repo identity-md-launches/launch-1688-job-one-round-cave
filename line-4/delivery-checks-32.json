@@ -1,0 +1,47 @@
+{
+  "ancestor_sha256": "50a0685d56f48b05b4a2b202ebcc92a90c038cb6cd6f05e0e20f86f81dc41ee3",
+  "wall_sha256": "14559e59bb6ae79d7e9aabb9d0eb4b5d8394c2fed241decd567a6d66bd497286",
+  "wall": {
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGB",
+    "bytes": 4027948
+  },
+  "thumbnail": {
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 60022,
+    "sha256": "58d345e0a24657b3f76168daad4f1f97615c78e96f1fa68fa8b4f5756baf84f7"
+  },
+  "addition_polygon": [
+    [
+      335,
+      925
+    ],
+    [
+      416,
+      925
+    ],
+    [
+      468,
+      962
+    ],
+    [
+      468,
+      1048
+    ],
+    [
+      335,
+      1048
+    ]
+  ],
+  "feather_pixels": 7,
+  "changed_pixels_inside": 15088,
+  "changed_pixels_outside": 0,
+  "named_wall_identical": true,
+  "unmet_visual_requirements": [
+    "Inherited small three-pronged trail marks cannot be certified as five-digit handprints; preserved unchanged."
+  ]
+}
