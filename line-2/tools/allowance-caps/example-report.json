@@ -1,0 +1,533 @@
+{
+  "schema": "permission-cap-comparison-v1",
+  "mode": "hypothetical_allowance_reductions",
+  "chain_id": 1,
+  "token": "ZTO",
+  "token_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+  "decimals": 18,
+  "block": {
+    "block_number": 26187572,
+    "block_hash": "0xfbdf6fb511bd7ee2e74dd1b2bd8982e05e2d4cf8d10e495e6b9789bc50e7997f",
+    "block_time_utc": "2026-10-14T01:52:23+00:00",
+    "sources": [
+      "https://ethereum-rpc.publicnode.com"
+    ]
+  },
+  "complete_wallet_audit": false,
+  "measured_pair_count": 19,
+  "explicit_cap_count": 1,
+  "changed_pair_count": 1,
+  "input_sha256": {
+    "observation": "e1840875d1e730aa6c16453ffffcd8b386a634f2752c9cfd1311eb4103fb65b4",
+    "receipts": "e50a0803d4a22fa89af4c385e5d2670600197dcfce17d0e5f2987202eb61b6c8",
+    "caps": "3ee4448a029c0c267b5d133af41de37d60f1b868933740ea0ad0fb37cc8e4e47"
+  },
+  "owners": [
+    {
+      "owner": "0x051fae10d5237bf7262d8477e2771c14545b5b97",
+      "balance_raw": "3195388076109321647380316",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "3195388076109321647380316",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0x2c6b6955ea01546343c363d8efbb31fac3f8cfb2",
+      "balance_raw": "0",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "0",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0x35f4b9acd41584df18e88cc7ebfbd2ea1e270f62",
+      "balance_raw": "0",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "0",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0x37b4df3817b864d6afa56a21bd92933f4721a1b6",
+      "balance_raw": "0",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "0",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0x0000000000001ff3684f28c67538d4d072c22734",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0x4662b891269e2196e67cca73e4b7812dd91c7ae3",
+      "balance_raw": "4156925955350016572884",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "4156925955350016572884",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0x0000000000001ff3684f28c67538d4d072c22734",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0x632ee80c099662ee9880d04a307401de195dabf8",
+      "balance_raw": "0",
+      "hypothetical_receipt_raw": "1000000000000000000",
+      "receipt_explicitly_supplied": true,
+      "hypothetical_balance_raw": "1000000000000000000",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "1000000000000000000",
+      "hypothetical_funded_combined_bound_raw": "250000000000000000",
+      "funded_combined_bound_reduction_raw": "750000000000000000",
+      "measured_total_capacity_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+      "hypothetical_total_capacity_raw": "250000000000000000",
+      "total_capacity_reduction_raw": "115792089237316195423570985008687907853269984665640564039457334007913129639935",
+      "remaining_active_measured_pairs": 1,
+      "pairs": [
+        {
+          "spender": "0x765956a7307222346b08fff681820a5d77e92028",
+          "explicit_cap": true,
+          "measured_allowance_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+          "hypothetical_allowance_raw": "250000000000000000",
+          "allowance_reduction_raw": "115792089237316195423570985008687907853269984665640564039457334007913129639935",
+          "measured_funded_bound_raw": "1000000000000000000",
+          "hypothetical_funded_bound_raw": "250000000000000000",
+          "funded_bound_reduction_raw": "750000000000000000"
+        }
+      ]
+    },
+    {
+      "owner": "0x77460867cc5e9b19cda24040e0d28e08b6916c76",
+      "balance_raw": "0",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "0",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0x799feaf061773be889d8a029d7381e24f79ac08e",
+      "balance_raw": "789511340361653663252300",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "789511340361653663252300",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0x227be0f88ecb7899a0e6e0347888b909d622c8e1",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0x824932206b216977e3a94094a9d6ecfc6851f0c8",
+      "balance_raw": "100000683029575604657695",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "100000683029575604657695",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0x02e5be68d46dac0b524905bff209cf47ee6db2a9",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0xb78c3a71ecf26ade99056db53da01d78d3261e8f",
+      "balance_raw": "0",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "0",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+      "balance_raw": "0",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "0",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0x0000000000001ff3684f28c67538d4d072c22734",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        },
+        {
+          "spender": "0x0005ea683517b3a4463bfd798c9850ad2d586795",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        },
+        {
+          "spender": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0xbadb536e95f450a4978445d7a0e363a42ec37eb4",
+      "balance_raw": "0",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "0",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+      "hypothetical_total_capacity_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 1,
+      "pairs": [
+        {
+          "spender": "0x765956a7307222346b08fff681820a5d77e92028",
+          "explicit_cap": false,
+          "measured_allowance_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+          "hypothetical_allowance_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0xca1a6e5fe34293775fe0dd109d74539b567eec34",
+      "balance_raw": "30552541524306096706135",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "30552541524306096706135",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0x0000000000001ff3684f28c67538d4d072c22734",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        },
+        {
+          "spender": "0x02e5be68d46dac0b524905bff209cf47ee6db2a9",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0xcb3c89c1145055a88504e71f7c5ad733169be093",
+      "balance_raw": "0",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "0",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0x40aa958dd87fc8305b97f2ba922cddca374bcd7f",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0xd5d0448415e9cb4586aa0d801be1cecaa1b1e2f7",
+      "balance_raw": "0",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "0",
+      "measured_current_combined_bound_raw": "0",
+      "hypothetical_current_combined_bound_raw": "0",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "0",
+      "hypothetical_funded_combined_bound_raw": "0",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "0",
+      "hypothetical_total_capacity_raw": "0",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 0,
+      "pairs": [
+        {
+          "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+          "explicit_cap": false,
+          "measured_allowance_raw": "0",
+          "hypothetical_allowance_raw": "0",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "0",
+          "hypothetical_funded_bound_raw": "0",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    },
+    {
+      "owner": "0xdd0c9e144197502537cef07eb7b7cb787c9d05ec",
+      "balance_raw": "636374392425212850154727",
+      "hypothetical_receipt_raw": "0",
+      "receipt_explicitly_supplied": false,
+      "hypothetical_balance_raw": "636374392425212850154727",
+      "measured_current_combined_bound_raw": "636374392425212850154727",
+      "hypothetical_current_combined_bound_raw": "636374392425212850154727",
+      "current_combined_bound_reduction_raw": "0",
+      "measured_funded_combined_bound_raw": "636374392425212850154727",
+      "hypothetical_funded_combined_bound_raw": "636374392425212850154727",
+      "funded_combined_bound_reduction_raw": "0",
+      "measured_total_capacity_raw": "999363625607574787149845274",
+      "hypothetical_total_capacity_raw": "999363625607574787149845274",
+      "total_capacity_reduction_raw": "0",
+      "remaining_active_measured_pairs": 1,
+      "pairs": [
+        {
+          "spender": "0x40aa958dd87fc8305b97f2ba922cddca374bcd7f",
+          "explicit_cap": false,
+          "measured_allowance_raw": "999363625607574787149845274",
+          "hypothetical_allowance_raw": "999363625607574787149845274",
+          "allowance_reduction_raw": "0",
+          "measured_funded_bound_raw": "636374392425212850154727",
+          "hypothetical_funded_bound_raw": "636374392425212850154727",
+          "funded_bound_reduction_raw": "0"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Hypothetical comparison only: no permission is changed and no transaction is produced.",
+    "Unlisted measured pairs retain their full measured allowance, never default to zero.",
+    "Allowance reductions and optional net receipts are explicit caller-selected scenarios.",
+    "Combined bounds cap the sum of overlapping allowances at owner balance; pair bounds must not be summed.",
+    "Total capacity caps allowance sums at uint256 maximum, independent of current balance.",
+    "Historical trusted RPC evidence, not state proofs, current state or future execution.",
+    "No proof of enforceable caps, token semantics, safe approval sequencing or spender trust.",
+    "Unknown permissions, Permit2, signatures and custom authorizations remain outside coverage.",
+    "Zero measured exposure does not establish wallet safety; owner review is still required."
+  ],
+  "demonstration": true
+}

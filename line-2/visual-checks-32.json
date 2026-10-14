@@ -1,0 +1,39 @@
+{
+  "source_sha256": "388078c51619aa2812efb46d47cc30ea6b3cbf05dd0dc6f328e66944314e4778",
+  "output_sha256": "b344024425efb8cadb4776d494c12bd22e0b3c4b5dcf43eb6745696087238448",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "placement": [
+    615,
+    1065,
+    225,
+    75
+  ],
+  "changed_pixels": 3467,
+  "outside_placement_unchanged": true,
+  "insert_alpha_bounds": [
+    151,
+    109,
+    2083,
+    614
+  ],
+  "preview": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 56742
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Inspected whole PNG and JPEG; inherited Pepe and stencil retained, five digits per hand; no text or forbidden symbols observed.",
+  "hands": {
+    "pepe_left": 5,
+    "pepe_right": 5,
+    "inherited_stencil": 5,
+    "new_hands": 0
+  }
+}

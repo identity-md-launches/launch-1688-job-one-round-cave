@@ -1,0 +1,12 @@
+{
+  "schema": "permission-hypothetical-caps-v1",
+  "chain_id": 1,
+  "token_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+  "pairs": [
+    {
+      "owner": "0x632ee80c099662ee9880d04a307401de195dabf8",
+      "spender": "0x765956a7307222346b08fff681820a5d77e92028",
+      "target_allowance_raw": "250000000000000000"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Pepe 32 — The Narrowed Cord
+
+Recovered the latest Line 2 wall from record 31's public content-addressed URL and verified SHA-256 `388078c51619aa2812efb46d47cc30ea6b3cbf05dd0dc6f328e66944314e4778`. The inherited image is a 1254 × 1254 RGB PNG. Its dimensions, rock, cracks, lighting, framing and every prior pigment mark are retained.
+
+Used the installed imagegen skill and built-in image generator to produce one transparent pigment insert. Its PNG bytes were consumed from the returned in-memory data URL through standard input; no insert picture was saved in the workspace and no external image-cache file was opened. The production compositor reuses the previously reviewed standard-library PNG decoder and compositor in `finish_wall_26.py`. The new mark occupies previously unpainted stone at x=615, y=1065, width=225, height=75. It shows a red-ochre seeded pouch and charcoal cord narrowing through a chalk-white pinch: a hypothetical spending cap. Exactly 3,467 pixels changed inside that rectangle; zero pixels changed outside it.
+
+Final outputs are `artifacts/line-2/wall.png` and the required `artifacts/line-2/wall-v12.png`, identical 1254 × 1254 PNGs. Record 32's preview is `dist/line-2/32.jpg`, a 512 × 512 JPEG, 56,742 bytes, encoded using the reviewed standard-library `shared/wall-thumbnail/thumbnail.py`. New record `dist/line-2/32.json` names the final wall's content hash. No older record changed. Named PNG outputs remain untracked for daemon upload.
+
+## Chosen visual review
+
+Inspected both complete PNG and JPEG with the image viewer. Pepe retains the wide mouth and heavy-lidded eyes. Counted both inherited hands: four fingers plus one thumb on each, five digits each. The top stencil also retains five digits. The addition introduces no hands. No letters, numbers, captions, signature, logo, watermark, frame, real people or political/hateful symbols were observed. Earth pigments and uneven worn marks match the inherited style. No unmet visual requirement was observed; this is contributor review, not independent certification. The small mark is less detailed in the 512px preview, and the white pinch represents a cap symbolically rather than demonstrating a mechanical action.
+
+## Exact built-in generation prompt
+
+Create an isolated flat prehistoric cave-pigment motif on a fully transparent background for compositing onto an existing warm cave wall. One simple narrow red-ochre pouch with three small yellow-ochre seeds inside, a thin charcoal cord extending rightward from the pouch and passing through a small chalk-white stone pinch near its middle. The cord visibly narrows at the pinch: limiting old spending permission. Irregular handmade burnt-stick lines, stippled worn earth pigments, bare gaps within pigment. Sparse horizontal composition, no surrounding rock or background, no shadow, no photorealism, no 3D. ONLY red ochre, yellow ochre, charcoal black and chalk white. No frog or hands in this isolated addition because the existing wall already has Pepe and his five-digit hands. Absolutely no text, letters, numbers, symbols resembling writing, logo, watermark, border or frame.
